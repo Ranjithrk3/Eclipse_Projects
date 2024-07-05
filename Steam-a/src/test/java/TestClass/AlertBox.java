@@ -29,6 +29,7 @@ public class AlertBox {
 		
 	
 			driver.get("https://demoqa.com/alerts");
+			driver.get("https://demoqa.com/alerts");
 		
 			
 		
