@@ -27,8 +27,8 @@ public class AlertBox {
 
 	public void AlertboxFunction() {
 		
-		driver.get("https://demoqa.com/alerts");
-		
+	
+			driver.get("https://demoqa.com/alerts");
 		
 
 	}
