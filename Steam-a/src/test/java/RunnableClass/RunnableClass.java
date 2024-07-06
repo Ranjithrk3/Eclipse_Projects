@@ -8,6 +8,7 @@ import TestClass.AlertBox;
 import TestClass.BaseClass;
 import TestClass.Dropdown;
 import TestClass.ExcelWithRegistration;
+import TestClass.TableClass;
 
 public class RunnableClass extends BaseClass {
 
@@ -29,6 +30,13 @@ public class RunnableClass extends BaseClass {
 		AlertBox alrt = new AlertBox(driver, extent);
 		alrt.AlertboxFunction();
 
+	}
+
+	@Test(priority = 3)
+	public void TableTestCase() throws IOException {
+
+		TableClass tb = new TableClass(driver, extent);
+		tb.TableFunction();
 	}
 
 }

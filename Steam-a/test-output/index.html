@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse-1702367520\testng-customsuite.xml</span>
+                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse-1209752876\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -125,6 +125,11 @@
                         <a href="#" panel-name="suite-Default_suite" title="RunnableClass.RunnableClass" class="method navigator-link" hash-for-method="DropdownTestcase">DropdownTestcase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="RunnableClass.RunnableClass" class="method navigator-link" hash-for-method="TableTestCase">TableTestCase</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
@@ -154,7 +159,7 @@
 	at org.testng.Assert.assertTrue(Assert.java:57)
 	at org.testng.Assert.assertTrue(Assert.java:67)
 	at TestClass.ExcelWithRegistration.ExcelFunction(ExcelWithRegistration.java:96)
-	at RunnableClass.RunnableClass.ExcelTestCase(RunnableClass.java:21)
+	at RunnableClass.RunnableClass.ExcelTestCase(RunnableClass.java:18)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -207,12 +212,19 @@
                   <span class="method-name">DropdownTestcase</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TableTestCase">
+                  </a> <!-- TableTestCase -->
+                  <span class="method-name">TableTestCase</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse-1702367520\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse-1209752876\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -261,24 +273,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'AlertboxTestCase')
 data.setCell(0, 2, 'RunnableClass.RunnableClass')
-data.setCell(0, 3, 20487);
+data.setCell(0, 3, 18726);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'ExcelTestCase')
 data.setCell(1, 2, 'RunnableClass.RunnableClass')
-data.setCell(1, 3, 6588);
+data.setCell(1, 3, 4783);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'DropdownTestcase')
+data.setCell(2, 1, 'TableTestCase')
 data.setCell(2, 2, 'RunnableClass.RunnableClass')
-data.setCell(2, 3, 4427);
+data.setCell(2, 3, 4546);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DropdownTestcase')
+data.setCell(3, 2, 'RunnableClass.RunnableClass')
+data.setCell(3, 3, 4378);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -313,19 +329,23 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">ExcelTestCase</span>
-                <span class="method-start">2587 ms</span>
+                <span class="method-start">3145 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DropdownTestcase</span>
-                <span class="method-start">9192 ms</span>
+                <span class="method-start">7940 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">AlertboxTestCase</span>
-                <span class="method-start">13625 ms</span>
+                <span class="method-start">12325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TableTestCase</span>
+                <span class="method-start">31058 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">Teardown</span>
-                <span class="method-start">34117 ms</span>
+                <span class="method-start">35613 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
