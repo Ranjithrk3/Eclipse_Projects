@@ -14,10 +14,25 @@ public class AlertboxPOM {
 		this.driver = driver;
 
 	}
+	//Using ID
+	@FindBy(id="alertButton")
+	public WebElement SimpleAlert;
 	
-	@FindBy()
-	public WebElement a;
+	//Xpath using index method
+	@FindBy(xpath="(//button[@class='btn btn-primary'])[2]")
+	public WebElement TimeDelayedAlert;
 	
+	//XPath using text() and Index
+	@FindBy(xpath="(//button[text()='Click me'])[3]")
+	public WebElement ConfirmationAlert;
+	
+	//Xpath using Id 
+	@FindBy(xpath="//button[@id='promtButton']")
+	public WebElement PromptAlert;
+	
+	
+	
+
 	
 	
 	
